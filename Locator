@@ -1,0 +1,55 @@
+                 ///Website 1. Swag Labs////
+
+    • Login Logo: [class="login_logo"]
+    • User-name: [id="user-name"]
+    • Pswd: [id="password"]
+    • Login-Box: [class="login-box"]
+    • Unknown User: [class="error-message-container error"]
+    • Submit: [class="submit-button btn_action"]
+    • Login Credentials: [class="login_credentials_wrap"]
+    
+    Login Page:
+    • Swag Logo: [class="app_logo"]
+    • Product title: [class="title"]
+    • Sort: [class="product_sort_container"]
+    • Cart: [class="shopping_cart_link"]
+    • Item Descrip: [class="inventory_item_description"]
+    • Item Price: [class="inventory_item_price"]
+    • AddtoCart: [id="add-to-cart-sauce-labs-backpack"]
+    • Menu: [id="react-burger-menu-btn"]
+    • All Items: [id="inventory_sidebar_link"]
+    • About: [id="about_sidebar_link"]
+    • Logout: [id="logout_sidebar_link"]
+    • Reset App Store: [id="reset_sidebar_link"]
+    • Cross Button(close): [id="react-burger-cross-btn"]
+
+    Check Out Page:
+    • Your Cart: [class="title"]
+    • Quantity: [class="cart_quantity_label"]
+    • Description: [class="cart_desc_label"]
+    • Continue Shopping: [id="continue-shopping"]
+    • Checkout: [id="checkout"]
+
+                      /////Website 2. nopcommerce/////
+
+    • Search Bar: [id="small-searchterms"]
+    • Search btn: [class="button-1 search-box-button"]
+    • Categories: [class="menu-toggle"]
+    • Register: [class="page-title"]
+    • Gender: [for="gender"]
+               [id="gender"]
+        • Male: #gender-male
+        • Female: #gender-female
+    • FirstName:[id="FirstName"]
+    • LastName: #LastName
+    • DOB:  [name="DateOfBirthDay"]
+            [name="DateOfBirthMonth"]
+            [name="DateOfBirthYear"]
+    • Email: #Email
+    • Company Name: #Company
+    • Newsletter: [id="Newsletter"]
+    • Password: #Password
+    • Confirm Password: #ConfirmPassword
+    • Register: #register-button
+
+    
