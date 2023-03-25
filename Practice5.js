@@ -1,4 +1,4 @@
-// 1. pattern
+1. pattern
 let n = 6; 
 let string = "";
 
@@ -19,48 +19,47 @@ console.log(string);
 
 }
 
+2. vowels removed
 
-// 2. vowels removed
-
-// function Vowel(str)
-// {
-//     let vowels = [ 'a', 'e', 'i', 'o', 'u', 
-//                'A', 'E', 'I', 'O', 'U' ];
-//     let result = "";
+function Vowel(str)
+{
+    let vowels = [ 'a', 'e', 'i', 'o', 'u', 
+               'A', 'E', 'I', 'O', 'U' ];
+    let result = "";
       
-//     for(let i = 0; i < str.length; i++) 
-//     {
+    for(let i = 0; i < str.length; i++) 
+    {
           
-//         if (!vowels.includes(str[i]))
-//         {
-//             result += str[i];
-//         }
-//     }
-//     return result;
-// }
-// let str = "Alphabin Technology Consulting";
-// console.log(Vowel(str));
+        if (!vowels.includes(str[i]))
+        {
+            result += str[i];
+        }
+    }
+    return result;
+}
+let str = "Alphabin Technology Consulting";
+console.log(Vowel(str));
 
 
-//3. Intersection 
+3. Intersection 
 
-// let first_array = [1,2,3,4,5,6];
-// let second_array = [2,4,6,8,10];
+let first_array = [1,2,3,4,5,6];
+let second_array = [2,4,6,8,10];
 
-// let res_arr = (first_array, second_array) => {
-//     let new_array = [];
-//     for (let i = 0; i < first_array.length; i++) {
-//         for (let j = 0; j < second_array.length; j++) {
-//             if (first_array[i] === second_array[j]) {
-//                 new_array.push(first_array[i]);
-//             }
-//         }
-//     }
-//     return new_array;
-// };
-// console.log(res_arr(first_array, second_array));
+let res_arr = (first_array, second_array) => {
+    let new_array = [];
+    for (let i = 0; i < first_array.length; i++) {
+        for (let j = 0; j < second_array.length; j++) {
+            if (first_array[i] === second_array[j]) {
+                new_array.push(first_array[i]);
+            }
+        }
+    }
+    return new_array;
+};
+console.log(res_arr(first_array, second_array));
 
-//4. array containing only the numbers that are present in both input arrays
+4. array containing only the numbers that are present in both input arrays
 
 const array1 = [1,4,2,5,3,'A','B',];
 const array2 = [8,5,4,2,'C','D'];

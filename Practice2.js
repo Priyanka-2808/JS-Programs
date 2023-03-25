@@ -53,27 +53,3 @@ for(let i=1;i<=3;i++){
     sum += parseInt(num);
  }
  console.log(sum);
-
-
-// let rows = prompt("enter a number ")
-// let char = "" ;
-// let sum= 0;
-// for (let i = 1; i <= rows; i++) {
-//  sum +=  parseInt(Array(i+1).join(i));
-// }
-//   console.log(sum);
-
-
-// var a = [1,4,7], count = a[a.length - 1];
-// var missing = [];
-// for ( var i = 1; i <= count; i++ ) {
-//     if (a.indexOf(i) == -1) {
-//         a.push(i);
-//     }
-// }
-// // alert(missing.toString());
-// console.log(a)
-
-
-
-
