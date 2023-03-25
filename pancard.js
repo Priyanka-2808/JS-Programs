@@ -1,16 +1,39 @@
-function generatePAN() {
-    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // valid PAN characters
-    const nums = "0123456789"; // valid PAN numbers
-    let pan = "";
-    for (let i = 0; i < 5; i++) {
-      pan += chars.charAt
-      (Math.floor(Math.random() * chars.length)); // choose a random character from chars
-    }
-    for (let i = 0; i < 4; i++) {
-      pan += nums.charAt(Math.floor(Math.random() * nums.length)); // choose a random number from nums
-    }
-    pan += chars.charAt(Math.floor(Math.random() * chars.length)); // choose a random character from chars
-    return pan;
-  }
 
-  
+// let length=3;
+// const char="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// let result="";
+// let singlechar="";
+// const charLength=char.length
+// for(let i=0;i<charLength;i++) 
+// {
+//   result+=char.charAt(Math.floor(Math.random()*charLength))
+// }
+// let digit=Math.floor(Math.random()*(1111-4999+1))+4999
+// console.log(result);
+
+function panCard(length)
+{
+const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+let result = ""
+let singleChar = ""
+
+const charLength = characters.length
+
+let counter = 0;
+    while (counter < length) 
+    {
+      result += characters.charAt(Math.floor(Math.random() * charLength));
+      counter += 1;
+    }
+
+
+let digit = Math.floor(Math.random()* (1111 - 4999 + 1)+ 4999) 
+
+singleChar += characters[Math.floor(Math.random() * charLength)]
+ 
+return result+digit+singleChar
+
+}
+
+console.log(panCard(5));

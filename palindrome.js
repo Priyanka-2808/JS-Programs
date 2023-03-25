@@ -13,5 +13,3 @@ const string = DayPilot.Modal('enter a string');
 const value = palindrome(string);
 console.log(value);
 
-
-

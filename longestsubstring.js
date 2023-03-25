@@ -17,10 +17,11 @@ function longestSubstring(str) {
         if (current.length > longest.length) {
             longest = current;
         }
-        // console.log("Great website",longest)
-        // console.log("hello vscode",current)
+       
     }
     return longest;
 }
 
-console.log(longestSubstring("Whatsapp Facebook Instagram"))
+console.log(longestSubstring("Whatsapp Facebook Instagram"));
+
+ 

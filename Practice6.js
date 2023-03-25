@@ -21,23 +21,22 @@
 
     //  2. pascal shape 
 
-// let n = 5;
-// let string = " ";
-// for (let i = 1; i <= n; i++) {
-//   for (let k = 0; k < i; k++) {
-//     string += String.fromCharCode(k + 65);
-//   }
-//   string += "\n";
-// }
+let n = 5;
+let string = " ";
+for (let i = 1; i <= n; i++) {
+  for (let k = 0; k < i; k++) {
+    string += String.fromCharCode(k + 65);
+  }
+  string += "\n";
+}
 
-
-// for (let i = 1; i <= n - 1; i++) {
-//     for (let k = 0; k < n - i; k++) {
-//       string += String.fromCharCode(k + 65);
-//     }
-//     string += "\n";
-//   }
-// console.log(string);
+for (let i = 1; i <= n - 1; i++) {
+    for (let k = 0; k < n - i; k++) {
+      string += String.fromCharCode(k + 65);
+    }
+    string += "\n";
+  }
+console.log(string);
 
 // 3. Adding up of string
 
@@ -57,20 +56,20 @@
 // console.log(Add(arr,9));
 
 // 4. Reverse the statement
-function reverseWords(str) {
+// function reverseWords(str) {
 
-    const words = str.split(' ');
+//     const words = str.split(' ');
     
-    const reversedWords = words.reverse();
+//     const reversedWords = words.reverse();
     
-    const reversedString = reversedWords.join(' ');
+//     const reversedString = reversedWords.join(' ');
   
-    return reversedString;
+//     return reversedString;
     
-}
-const inputString = 'The quick brown fox jumps over the lazy dog.';
-const outputString = reverseWords(inputString);
-console.log(outputString);
+// }
+// const inputString = 'The quick brown fox jumps over the lazy dog.';
+// const outputString = reverseWords(inputString);
+// console.log(outputString);
 
 
 //   function reverseWords(str) {

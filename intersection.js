@@ -15,3 +15,4 @@ let arr1 = [1, 2, 3, 4, 5, 6];
 
 	console.log("Intersected array obtain is:");
 	console.log(res_arr(arr1, arr2));
+	
